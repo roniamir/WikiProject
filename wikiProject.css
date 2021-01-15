@@ -6,7 +6,7 @@
 .main{
     position: static;
 }
-header{
+#home-header{
     background: url("tropical_beach.jpg");
     height: 90vh;
     width: 100%;
@@ -142,3 +142,54 @@ header{
     float: right;
     margin: 5px 10px;
 }
+
+
+
+.top-text{
+    position: relative;
+    display: block;
+    height: 200px;
+    justify-content: center;
+    background: rgba(121, 228, 255, 0.973);
+}
+.top-text h2{
+    padding-left: 10px;
+    font-size: 120px;
+}
+.top-text p{
+    margin-top: 5px;
+    padding-left: 10px;
+    font-size: 35px;
+}
+.reco-description{
+    display: block;
+    height: 80px;
+    text-align: center;
+}
+.reco-description p{
+    position: relative;
+    background: pink;
+    padding: 20px;
+    margin: 10px;
+    font-size: 22px;
+
+
+}
+.tips-container{
+    display: flex;
+    height: 600px;
+    flex-direction: row;
+    background: rgba(174, 250, 181, 0.856);
+    justify-content: center;
+}
+
+.tips-container > div{
+    margin: 10px;
+    width: 350px;
+    height: 350px;
+}
+.container-itm{
+    width: 300px;
+    height: 300px;
+}
+
